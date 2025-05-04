@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(22, 90, 90);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(36, 158, 158);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(217, 192, 160);
+    font-size: 1.1rem;
+}
+.left{
+    font-size: 2.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    /* align-items: center; */
+}
+
+.firstSection > div{
+    width: 40%;
+}
+
+.leftSection{
+    /* background-color: blue; */
+    width: 40%;
+    font-size: 2.5rem;
+    margin: 5rem;
+}
+.rightSection{
+    /* background-color: blue; */
+    width: 40%;
+    margin: 0 5rem 0 0 ;
+}
+.rightSection img{
+    /* background-color: blue; */
+    width: 100%;
+    margin: 50px 0;
+}
+.red{
+    color: rgb(56, 175, 211);
+}
+#element{
+    color:  rgb(56, 175, 211);
+}
+
+.about h1{
+    font-size: 40px;
+    margin: 30px 60px;
+}
+
+.leftpart{
+    margin: 20px 50px;
+}
+
+.leftpart h2{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.leftpart h3{
+    font-size: 25px;
+    margin: 5px 10px;
+}
+
+.leftpart p{
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.mainpart{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.leftpart{
+    width: 40%;
+    /* font-size: ; */
+    /* margin: 5rem; */
+}
+.rightpart{
+    width: 40%;
+    /* font-size: 20px; */
+    margin: 20px 50px;
+}
+.rightpart h2 span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.rightpart h2{
+    margin: 5px 10px;
+    font-size: 30px;
+}
+.rightpart p{
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.pro h1{
+    font-size: 40px;
+    margin: 30px 100px;
+}
+
+.firstpart{
+    margin: 40px 100px;
+}
+.firstpart h1{
+    margin: 10px;
+}
+.firstpart p{
+    margin: 5px;
+    font-size: 20px;
+}
+.firstpart div{
+    margin: 20px;
+}
+
+.contact {
+    margin: 40px 100px;
+}
+.contact h1{
+    font-size: 40px;
+    margin: 15px;
+}
+.contact h2{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
